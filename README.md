@@ -33,3 +33,23 @@ Create a bool array of length n and initialize all elements to true.
 bool prime[*n + 1];
     memset(prime, true, sizeof(prime));
 ```
+Iterate from 2 to sqrt(n) and update the values of the multiples of previously encountered prime numbers as false.
+
+```
+for (int p = 2; p * p <= *n; p++)
+    {
+        // If prime[p] is not changed,
+        // then it is a prime
+        if (prime[p] == true)
+        {
+            // Update all multiples
+            // of p greater than or
+            // equal to the square of it
+            // numbers which are multiple
+            // of p and are less than p^2
+            // are already been marked.
+            for (int i = p * p; i <= *n; i += p)
+                prime[i] = false;
+        }
+    }
+```
