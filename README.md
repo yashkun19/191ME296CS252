@@ -28,7 +28,8 @@ the number entered by the user.
 The appraoch that we use to find prime number upto n is sieve of Eratosthenes.  
 Take the input number n from user.  
 Declare a function SieveofEratosthenes.  
-Create a bool array of length n and initialize all elements to true.  
+Create a thread to compute the prime numbers and pass the function and argument to the thread.
+Within the function create a bool array of length n and initialize all elements to true.  
 ```
 bool prime[*n + 1];
     memset(prime, true, sizeof(prime));
@@ -53,3 +54,11 @@ for (int p = 2; p * p <= *n; p++)
         }
     }
 ```
+Print the indices of the array whose values are true, those are the prime numbers.
+```
+for (int p = 2; p <= *n; p++)
+        if (prime[p])
+            cout << p << " ";
+```
+
+Join the thread.
