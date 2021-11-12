@@ -24,3 +24,12 @@ enter a number on the command line. The program will then create a
 separate thread that outputs all the prime numbers less than or equal to
 the number entered by the user.
 
+#### Basic idea
+The appraoch that we use to find prime number upto n is sieve of Eratosthenes.  
+Take the input number n from user.  
+Declare a function SieveofEratosthenes.  
+Create a bool array of length n and initialize all elements to true.
+'''
+bool prime[*n + 1];
+    memset(prime, true, sizeof(prime));
+    '''
