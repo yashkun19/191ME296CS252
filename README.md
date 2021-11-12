@@ -13,7 +13,8 @@ determine the maximum value, and the third will determine the minimum value
 #### Basic idea
 Firstly global variables for array,maximum,minimum,average are declared.  
 Input is taken through from command line from the user.  
-Functions for finding maximum,minimum and average are declared.Seperate threads are created for respective operations.  
+Functions for finding maximum,minimum and average are declared.  
+Seperate threads are created for respective operations.  
 These thread access the global variables and update their values.  
 Finally all threads are joined together and output is printed on the screen.  
 
