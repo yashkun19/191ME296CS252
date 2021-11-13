@@ -65,4 +65,5 @@ Join the thread.
 
 
 # References
-https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+https://www.geeksforgeeks.org/sieve-of-eratosthenes/  
+https://www.geeksforgeeks.org/thread-functions-in-c-c/
