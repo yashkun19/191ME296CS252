@@ -1,7 +1,7 @@
 # CS252 Assignment
 
 ## Description
-This assignment consisits of two questions related to multithreading
+This assignment consisits of two questions related to multithreading,the problems are solved in C++ using the pthreads library.
 
 ### Problem 1
 Write a multithreaded program that calculates various statistical values
