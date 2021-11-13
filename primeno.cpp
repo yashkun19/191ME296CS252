@@ -50,6 +50,7 @@ int main()
 
     pthread_create(&tid_1, NULL, SieveOfEratosthenes, &n);
     pthread_join(tid_1, NULL);
-    //SieveOfEratosthenes(n);
+    pthread_exit(NULL);
+    
     return 0;
 }
