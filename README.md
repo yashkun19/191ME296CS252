@@ -64,5 +64,5 @@ for (int p = 2; p <= *n; p++)
 Join the thread.
 
 
-#References
+# References
 https://www.geeksforgeeks.org/sieve-of-eratosthenes/
