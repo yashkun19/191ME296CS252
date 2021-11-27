@@ -38,6 +38,7 @@ void* SieveOfEratosthenes(void*num)
     for (int p = 2; p <= *n; p++)
         if (prime[p])
             cout << p << " ";
+     pthread_exit(0);
 }
 
 // Driver Code
