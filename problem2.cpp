@@ -44,7 +44,9 @@ void* SieveOfEratosthenes(void*num)
 // Driver Code
 int main()
 {
-    int n = 12;
+   int n;
+    printf("Enter number->");
+    scanf("%d",&n);
     cout << "Following are the prime numbers smaller "
          << " than or equal to " << n << endl;
     pthread_t tid_1;
