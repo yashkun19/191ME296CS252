@@ -51,7 +51,7 @@ void *max_fun(void *arg)
 
 int main(){
 
-    int arr[num] = {NULL}; //initialize all elements of array to null
+    int arr[num] = {0}; //initialize all elements of array to null
     printf("Enter size of array\t"); 
     scanf("%d",&size);      // take input of size from user
     for(int i =0 ;i<size;i++){
