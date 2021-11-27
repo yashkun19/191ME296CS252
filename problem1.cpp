@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h> 
 #include <pthread.h>
-#define num 20
+#define num 1000
 using namespace std;
 
 //Global variables
