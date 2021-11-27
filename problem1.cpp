@@ -19,6 +19,7 @@ void *avg_fun(void* arg){
         
     }
     avg = sum/size;
+    pthread_exit(0);
 }
 //function to find minimum of array
 void *min_fun(void *arg)
@@ -30,7 +31,7 @@ void *min_fun(void *arg)
         if(*(arr+i)<min)
         min = *(arr+i);
     }
-
+     pthread_exit(0);
 }
 // function to find maximum of array
 void *max_fun(void *arg)
@@ -43,6 +44,7 @@ void *max_fun(void *arg)
         if (*(arr + i) > max)
             max = *(arr + i);
     }
+     pthread_exit(0);
 }
 
 
